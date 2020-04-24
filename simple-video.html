@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Video and Audio</title>
+    <title>Using HTML for Video & Audio</title>
 
     <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <h1>HTML Video and Audio</h1>
+    <h1>Using HTML for Video & Audio</h1>
     
     <div class="wrapper">
       
@@ -20,7 +20,13 @@
       <video controls>
         <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4" type="video/mp4">
         <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg" type="video/ogg">
+          <track label="English" kind="subtitles" srclang="en" src="bridge-captions.vtt" default>
       </video>
+
+      <h2>Audio Example</h2>
+      <audio controls>
+        <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge-audio.mp3" type="audio/mp3">
+      </audio>
       
     </div>
 
